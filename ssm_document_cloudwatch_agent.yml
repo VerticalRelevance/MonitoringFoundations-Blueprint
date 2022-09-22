@@ -1,0 +1,11 @@
+---
+schemaVersion: '2.2'
+description: State Manager Cloudwatch Agent
+parameters: {}
+mainSteps:
+  - action: aws:runShellScript
+    name: reloadCloudwatchAgentConfigFileFromS3
+    inputs:
+      runCommand:
+        - aws s3 cp s3://vr-labs-cloudwatch-agent-config/config.json /opt/aws/amazon-cloudwatch-agent/bin/config.json
+        - /opt/aws/amazon-cloudwatch-agent/bin/amazon-cloudwatch-agent-ctl -a fetch-config -m ec2 -s -c file:/opt/aws/amazon-cloudwatch-agent/bin/config.json
