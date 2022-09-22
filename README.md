@@ -24,8 +24,8 @@ The following diagram illustrates the architecture of the Cloudwatch Agent confi
 - You must have Python 3.8 or later installed and configured
 - You must have AWS CDK installed and configured
 - You must have your ~/.aws/credentials file configured with the appropriate profile
-- You must clone this repository `https://github.com/VerticalRelevance/ObservabilityFoundations-Blueprint`
-- You must clone this repository - it's adjacent config file repository - `https://github.com/VerticalRelevance/ObservabilityFoundations-Blueprint-agent-config`
+- You must clone this repository `https://github.com/VerticalRelevance/MonitoringFoundations-Blueprint`
+- You must clone this repository - it's adjacent config file repository - `https://github.com/VerticalRelevance/MonitoringFoundations-Blueprint-agent-config`
 - A GitHub account
 - You must use a personal access token from GitHub to connect to the OAuth provider (https://docs.aws.amazon.com/cdk/api/latest/docs/aws-codepipeline-actions-readme.html#github) 
 
