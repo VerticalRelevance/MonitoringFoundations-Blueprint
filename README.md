@@ -1,5 +1,5 @@
 
-# Monitoring-Foundations-Cloudwatch-Blueprint
+# MonitoringFoundations-Blueprint
 
 ## Purpose
 The purpose of the Monitoring Cloudwatch Foundations is to provide a foundational example of a dynamic cloudwatch process utilizing AWS services.
